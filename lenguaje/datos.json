@@ -1,5 +1,12 @@
-{
+
+[{
     "nombre": "Pepe", 
     "edad": 23, 
     "isAlumno": true
+}, 
+{
+    "nombre": "Juan",
+    "edad": 32,
+    "isAlumno": true
 }
+]
