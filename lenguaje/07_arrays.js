@@ -11,3 +11,14 @@ for (let i = 0; i < aDatos.length; i++) {
     const item = aDatos[i];
     console.log('Hola', item)
 }
+
+aDatos.forEach( item => console.log('Hola moderno', item) )
+
+const aNumbers  = [5, 7, 4, 6, 9] 
+
+let aCubos = aNumbers.map( item => item*item )
+
+let aCubosPares = aCubos.filter( item => !(item%2))
+
+console.log(aCubos)
+console.log(aCubosPares)
