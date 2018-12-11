@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basic</title>
+    <script>
+        function saludar() {
+            const msj = 'Hola desde una función'
+            console.log(msj)
+        }
+
+        /* const despedir = function () { console.log('Adios')}  */
+        const despedir =  () => console.log('Adios desde una funcion')
+    </script>
+
+</head>
+<body>
+    <header><h1>Usos de JS en la Web</h1></header>
+    <h2>JavaScrip inline</h2>
+    <button id="btnSaludar" onclick="console.log('Hola')">Saludar</button>
+    <button id="btnIrse" onclick="console.log('Adios')">Irse</button>
+    <h2>Uso de scripts</h2>
+    <button id="btnSaludar2" onclick="saludar()">Saludar</button>
+    <button id="btnIrse2" onclick="despedir()">Irse</button>
+</body>
+</html>
