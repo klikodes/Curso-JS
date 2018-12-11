@@ -1,0 +1,11 @@
+.titulo {
+    background-color: brown;
+    color: bisque;
+    padding: 1rem 4rem;
+}
+
+.titulo_inverso {
+    background-color: bisque;
+    color: brown;
+    padding: 1rem 4rem;
+}
